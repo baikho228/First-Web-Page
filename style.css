@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+    rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.logo-rapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logo-slogan {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  text-align: center;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.hh1 {
+  width: 70px;
+  height: 70px;
+  margin: 20px 20px 10px 50px;
+}
+.nav {
+  display: flex;
+  gap: 10px;
+  margin: 20px 40px;
+}
+.nav-item {
+  text-decoration: none;
+  color: black;
+  border-radius: 8px;
+  transition: 0, 4s;
+  padding: 8px 12px;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: 0.4s;
+}
+
+.nav :hover {
+  background-color: rgba(234, 230, 230, 0.826);
+}
+.button {
+  padding: 8px;
+  border-radius: 10px;
+  border: 2px solid rgba(14, 13, 13, 0.957);
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  transition: 0.4s;
+  transition: 0.4s;
+  background-color: white;
+}
+.button-wrapper :hover {
+  cursor: pointer;
+  background-color: rgba(234, 230, 230, 0.826);
+}
+
+.button-wrapper {
+  display: flex;
+  gap: 15px;
+  margin: 20px 50px 10px 20px;
+}
+.section1 :hover {
+  transform: scale(1.02);
+  cursor: pointer;
+  filter: drop-shadow(0px 0px 12px rgba(4, 62, 188, 0.831));
+  text-shadow: 0px 0px 10px cyan, 0px 0px 20px cyan, 0px 0px 40px cyan,
+    0px 0px 80px cyan;
+}
+
+.h1 {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 200px;
+  font-style: normal;
+  line-height: 50px;
+}
+
+.h2 {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 100px;
+  font-style: normal;
+  line-height: 40px;
+}
+.h3 {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 100px;
+  font-style: normal;
+  line-height: 40px;
+}
+.h4 {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 100px;
+  font-style: normal;
+  line-height: 40px;
+}
+.h5 {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 100px;
+  font-style: normal;
+  line-height: 30px;
+}
+.p {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  height: 41px;
+  width: 100%;
+  padding: 13px 0px 5px 35px;
+}
+#sing-in :hover {
+  cursor: pointer;
+}
+.sc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 73vh;
+}
+.section1 {
+  margin-left: 120px;
+}
+.section2 {
+  margin-right: 70px;
+}
+.b2 {
+  width: 700px;
+  height: auto;
+}
